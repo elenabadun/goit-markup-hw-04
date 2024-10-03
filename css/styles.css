@@ -467,10 +467,6 @@ align-items: center;
   color: #f4f4fd;
 }
 
-.social-media-list-footer {
-  align-items: baselin;
-}
-
 .social-list-footer {
 display: flex;
 justify-content: center;
