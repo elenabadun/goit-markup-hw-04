@@ -435,7 +435,7 @@ align-items: center;
 /*-------------Footer Styles-------------*/
 
 .footer-container {
-  font-display: flex;
+  display: flex;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -458,6 +458,9 @@ align-items: center;
   color: #f4f4fd;
 }
 
+.social-media-list-footer {
+  padding-left: 120px;
+}
 
 .social-list-footer {
 display: flex;
@@ -481,7 +484,6 @@ gap: 16px
 }
 
 .social-media-text {
-  justify-content:;
  align-items: center;
  margin-bottom: 16px;
 font-weight: 500;
