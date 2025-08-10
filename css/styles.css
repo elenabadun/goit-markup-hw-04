@@ -68,6 +68,8 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .header .container {
@@ -125,14 +127,6 @@ img {
 :focus {
   color: #404bbf;
 }
-
-/* .navigation-link:hover,
-.navigation-link:focus,
-.contacts-link:hover,
-.contacts-link:focus,
-.navigation-link.current {
-  color: #404bbf;
-} */
 
 .navigation-link::after {
   content: "";
@@ -192,7 +186,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/backgraund-image\ /hero.jpg);
+    url(../images/hero.jpg);
   background-size: cover;
   background-color: #2e2f42;
   background-repeat: no-repeat;
@@ -446,6 +440,8 @@ img {
 /* region Footer */
 .footer {
   padding: 100px 0;
+}
+.page-footer {
   background-color: #2e2f42;
 }
 
